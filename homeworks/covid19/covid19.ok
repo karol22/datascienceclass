@@ -1,0 +1,15 @@
+{
+  "name": "Homework covid-19: playing around with covid-19 data",
+  "endpoint": "tec/tc2031/sp20/covid19",
+  "src": [
+    "covid19.ipynb"
+  ],
+    "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
